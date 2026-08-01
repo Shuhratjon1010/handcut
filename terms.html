@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terms of Use — Handcut</title>
+<style>
+  :root{color-scheme:light dark}
+  body{max-width:44rem;margin:0 auto;padding:2.5rem 1.25rem 6rem;
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  h1{font-size:1.9rem;line-height:1.2;margin:0 0 1.5rem}
+  h2{font-size:1.15rem;margin:2.25rem 0 .6rem}
+  a{color:#802EFF}
+  hr{border:0;border-top:1px solid #8884;margin:2.5rem 0 1.5rem}
+  em,small{opacity:.75}
+  table{border-collapse:collapse;width:100%;overflow-x:auto;display:block}
+  td,th{border:1px solid #8884;padding:.4rem .6rem;text-align:left}
+</style>
+</head>
+<body>
+<h1>Terms of Use — Handcut</h1>
+
+<!--
+  OWNER-FILL: Bymytown LLC, the United States, shuhrat.soliev@gmail.com.
+
+  This page did not exist until 1 Aug 2026, and ExportSheet.swift had been compiling a
+  link to it into the binary the whole time. It was found by Tools/verify-live-urls.sh,
+  which checks that shipped URLs RESOLVE — as distinct from verify_metadata.rb, which
+  checks only that they agree with each other. Two representations agreeing is not the
+  same as either being correct.
+
+  Every clause below is traced to shipped behaviour:
+    on-device processing   → CaptionGenerator.requiresOnDeviceRecognition = true;
+                             Tools/network-surface-sweep.sh
+    no account             → there is no auth code anywhere in Sources/
+    entitlements on device → StoreManager reads Transaction.currentEntitlements;
+                             no receipt-validation server exists
+    no watermark, any tier → Entitlements; asserted by GateTests
+  Do not add a clause describing something the app does not do.
+-->
+
+<p><strong>Effective 1 August 2026.</strong> These terms govern your use of the Handcut
+iOS app, published by Bymytown LLC (the United States).</p>
+
+<h2>The short version</h2>
+
+<p>Handcut is a video editor that runs on your device. Your videos are yours. We do not
+collect them, we cannot see them, and there is no account to create. Pay us or do not —
+either way there is no watermark on your exports.</p>
+
+<h2>What you may do</h2>
+
+<p>Use Handcut to edit and export as many videos as you like, for personal or commercial
+purposes, on any device signed in to your Apple Account, under the terms of Apple's
+<a href="https://www.apple.com/legal/internet-services/itunes/">Licensed Application End
+User License Agreement</a>. There is no export limit, no project limit and no video-length
+limit on any tier, including the free one.</p>
+
+<p><strong>You own your output.</strong> We claim no rights in anything you make. We do not
+need a licence to your content because your content never reaches us.</p>
+
+<h2>What you may not do</h2>
+
+<ul>
+  <li>Reverse-engineer, decompile or redistribute the app, except where that restriction is
+      void under the law that applies to you.</li>
+  <li>Use Handcut to create material that is unlawful where you are, or that infringes
+      someone else's rights.</li>
+  <li>Use it to process footage you have no right to process.</li>
+</ul>
+
+<h2>Purchases</h2>
+
+<p>Handcut Pro is offered as a monthly subscription, an annual subscription, or a one-time
+lifetime purchase. Prices are shown in the app in your local currency before you buy.</p>
+
+<ul>
+  <li><strong>Subscriptions renew automatically</strong> until cancelled. Cancel at least 24
+      hours before the period ends, in Settings → your name → Subscriptions. Cancelling
+      stops the next renewal; it does not refund the current period.</li>
+  <li><strong>The free trial</strong> is offered on the annual plan only, and only to
+      accounts that have not used it before. If you do not cancel before it ends, it
+      converts to a paid year.</li>
+  <li><strong>The lifetime purchase</strong> is a one-time, non-consumable purchase. It does
+      not renew and cannot be cancelled, because there is nothing to cancel.</li>
+  <li><strong>Apple takes the payment, not us.</strong> We never see your card. Refunds are
+      handled by Apple under their terms — request one at
+      <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. We cannot
+      issue a refund on Apple's behalf, though we would like to be able to.</li>
+</ul>
+
+<p>Your purchase is recognised by reading Apple's own entitlement record on your device. We
+run no server that tracks what you have bought.</p>
+
+<h2>Captions and speech</h2>
+
+<p>Automatic captions are produced by Apple's on-device speech recognition. Your audio is
+not uploaded, and there is no network fallback — if the language is not available offline on
+your device, the feature reports that rather than sending your audio somewhere.</p>
+
+<p>Recognition accuracy varies with audio quality, accent and language. Captions are a
+starting point you are expected to edit, not a transcript we warrant to be correct.</p>
+
+<h2>Availability, and changes to the app</h2>
+
+<p>We may add, change or remove features. If a change removes something you paid for, that
+is a refund conversation, not a terms conversation — write to us.</p>
+
+<p>Handcut is provided as-is. To the extent the law where you live permits, we exclude
+implied warranties, and our total liability to you is limited to what you paid us in the
+twelve months before the claim. Nothing here limits liability that cannot lawfully be
+limited — including for death, personal injury, or fraud.</p>
+
+<h2>Ending these terms</h2>
+
+<p>You may stop using Handcut at any time by deleting it; your exported videos stay in your
+photo library. We may end your licence if you materially breach these terms, which in
+practice means using the app to break the law.</p>
+
+<h2>Governing law</h2>
+
+<p>These terms are governed by the law of the United States. If you are a consumer, you keep
+the protections of the law where you live, and nothing here removes them.</p>
+
+<h2>Contact</h2>
+
+<p>shuhrat.soliev@gmail.com — Bymytown LLC, the United States.</p>
+
+<hr>
+
+<p><em>Reviewed by counsel? Not yet.</em> These pages are written to match what the app
+actually does, clause by clause, so a lawyer has something accurate to correct rather than
+boilerplate to rewrite. One item needs attention before launch: the governing-law clause
+names <strong>the United States</strong>, but US law is made at state level and an LLC has a
+state of formation. A reviewer should replace it with the specific state.</p>
+
+<p><strong>This is not legal advice.</strong> It is a plain-language document written to
+match what the app actually does, so that a lawyer reviewing it has something accurate to
+correct rather than boilerplate to rewrite. Have it reviewed before launch, particularly the
+liability and governing-law clauses, which are the two that vary most by jurisdiction.</p>
+
+</body>
+</html>
