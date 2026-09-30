@@ -1,0 +1,6 @@
+# GitHub Pages project site: crawlers only read /robots.txt at the domain root,
+# so this file takes effect only if the site moves to a custom domain.
+User-agent: *
+Allow: /
+
+Sitemap: https://shuhratjon1010.github.io/handcut/sitemap.xml
