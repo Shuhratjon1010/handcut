@@ -1,0 +1,25 @@
+# Project-site robots.txt. Note: crawlers read robots.txt only at the domain root
+# (shuhratjon1010.github.io/robots.txt), so this file is advisory unless moved there.
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://shuhratjon1010.github.io/handcut/sitemap.xml

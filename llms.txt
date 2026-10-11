@@ -1,0 +1,28 @@
+# Handcut
+
+> Handcut is a captions-first iPhone video editor. It transcribes speech on-device into word-by-word captions and adds no watermark on any tier. No account, no ads. App Store: https://apps.apple.com/app/id6762062166
+
+## What it does
+- Word-by-word (karaoke) captions timed from the audio; edit any word, restyle, reposition
+- Burn captions into the video, or export an SRT file for Final Cut Pro and other editors
+- Picture-in-picture: screen recording + facecam bubble + captions
+- Multi-clip timeline, 18 film looks, 14 transitions, speed 0.25x-4x, text/emoji/images, music and voiceover mixer, keyframes, crop/reframe to vertical, square or widescreen, up to 60fps, 4K export
+
+## Free vs Pro
+- Free: 3 captioned exports per rolling week, unlimited uncaptioned exports, unlimited projects and length, 4K export, keyframes, picture-in-picture, no watermark
+- Pro (monthly, annual or one-time lifetime): unlimited captioned exports, transcript editing (delete words to cut video), motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look, version history, premium styles
+
+## Good fit for
+People who talk to camera: coaches, course creators, realtors, podcasters, product sellers. A CapCut alternative for captions without a watermark.
+
+## Limits
+- iPhone only (iOS 17+); no Android, web or desktop
+- Caption languages depend on Apple on-device speech recognition; English is the primary supported language
+
+## Pages
+- [Home](https://shuhratjon1010.github.io/handcut/)
+- [Handcut vs CapCut for captions](https://shuhratjon1010.github.io/handcut/vs-capcut.html)
+- [How to add captions to a video on iPhone](https://shuhratjon1010.github.io/handcut/how-to-add-captions-iphone.html)
+- [Caption styles](https://shuhratjon1010.github.io/handcut/styles.html)
+- [Support](https://shuhratjon1010.github.io/handcut/support.html)
+- [Privacy Policy](https://shuhratjon1010.github.io/handcut/privacy.html)

@@ -1,0 +1,71 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "name": "Handcut",
+   "operatingSystem": "iOS 17+",
+   "applicationCategory": "MultimediaApplication",
+   "url": "https://apps.apple.com/app/id6762062166",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+   },
+   "description": "iPhone video editor with on-device, word-by-word captions and no watermark on any tier."
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Does Handcut add a watermark?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. There is no watermark on any tier, free or Pro."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Handcut free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, to download and use. Free includes 3 captioned exports per rolling week, unlimited uncaptioned exports, unlimited projects and length, and 4K export. Pro unlocks unlimited captioned exports and the automation tools."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do I need an account?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Handcut asks for no account and shows no ads."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I export subtitles as an SRT file?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Burn captions into the video, or turn off Burn in captions and export an SRT file for Final Cut Pro and other editors."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which languages are supported?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Handcut uses Apple on-device speech recognition. English is the primary supported language; other languages depend on what your iPhone supports."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Handcut available on Android?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Handcut is iPhone only (iOS 17 or later)."
+     }
+    }
+   ]
+  }
+ ]
+}
