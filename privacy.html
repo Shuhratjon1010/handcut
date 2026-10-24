@@ -17,18 +17,24 @@
 <p><strong>Effective 1 August 2026 (updated 24 October 2026 for Handcut 4.0).</strong></p>
 
 <h2>The short version</h2>
-<p>Handcut collects nothing. There is no account, no analytics, no advertising identifier,
-and no server belonging to us for your video to be sent to. Editing, captioning and
-exporting all happen on your iPhone.</p>
+<p>Handcut does not collect personal data from you. There is no account, no analytics, no advertising identifier, and no server belonging to us for your video to be sent to. Editing, captioning, optional on-device subject framing, and exporting all happen on your iPhone.</p>
 
 <h2>What we collect</h2>
-<p><strong>Nothing.</strong> Our App Store privacy label reads “Data Not Collected”. That is
-a statement about what the app is capable of, not about what we choose to do: the app links
-no networking framework and contains no networking code outside Apple’s own StoreKit.</p>
+<p><strong>Nothing.</strong> Nothing leaves your device to reach us. Our App Store privacy label reads “Data Not Collected”. That is a statement about what the app transmits: the app links no networking framework and contains no networking code outside Apple’s own StoreKit. On-device face/person detection used for optional framing features is described under Face data below — it is processed locally and is not collected by Handcut.</p>
 
 <h2>Your video, audio and captions</h2>
-<p>Your footage never leaves your device. Captions are produced by Apple’s on-device speech
-recognition with network recognition explicitly disabled and no fallback path.</p>
+<p>Your footage never leaves your device. Captions are produced by Apple’s on-device speech recognition with network recognition explicitly disabled and no fallback path.</p>
+
+<h2>Face data (on-device only)</h2>
+<p>Some optional editing features (for example auto-reframe and subject tracking) use Apple’s on-device Vision frameworks to detect a face or person in <em>your</em> video while you edit. That processing happens entirely on your device.</p>
+<ul>
+  <li><strong>What face data is processed:</strong> temporary geometric detections such as face bounding boxes / person silhouette masks derived from frames you already imported. The app does not create a biometric template, does not identify who you are, and does not build a face gallery.</li>
+  <li><strong>Collection:</strong> Handcut does <em>not</em> collect face data. Nothing about your face is uploaded to us — there is no Handcut server that could receive it.</li>
+  <li><strong>Use:</strong> solely to position a crop, follow a subject, or similar in-editor framing while you work on that project.</li>
+  <li><strong>Sharing:</strong> face data is not shared with any third party. Apple’s Vision APIs run locally; we do not send face data to Apple or anyone else for these features.</li>
+  <li><strong>Storage / retention:</strong> detections are ephemeral working state for the current edit session / project on your device. They are not stored in a cloud account we control. When you delete the project or uninstall the app, that local working state goes with it.</li>
+  <li><strong>Deletion / revoke:</strong> stop using tracking or auto-reframe, delete the project, or delete the app. Because we never receive the data, there is nothing for us to delete on a server.</li>
+</ul>
 
 <!--
   2026-08-25 — the sentence that used to end this paragraph read:
