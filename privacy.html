@@ -14,27 +14,21 @@
   OWNER-FILL: shuhrat.soliev@gmail.com, Daler Soliev, 1 August 2026, Tajikistan.
 -->
 
-<p><strong>Effective 1 August 2026.</strong></p>
+<p><strong>Effective 1 August 2026 (updated 24 October 2026 for Handcut 4.0).</strong></p>
 
 <h2>The short version</h2>
-<p>Handcut does not collect personal data from you. There is no account, no analytics, no advertising identifier, and no server belonging to us for your video to be sent to. Editing, captioning, optional on-device subject framing, and exporting all happen on your iPhone.</p>
+<p>Handcut collects nothing. There is no account, no analytics, no advertising identifier,
+and no server belonging to us for your video to be sent to. Editing, captioning and
+exporting all happen on your iPhone.</p>
 
 <h2>What we collect</h2>
-<p><strong>Nothing.</strong> Nothing leaves your device to reach us. Our App Store privacy label reads “Data Not Collected”. That is a statement about what the app transmits: the app links no networking framework and contains no networking code outside Apple’s own StoreKit. On-device face/person detection used for optional framing features is described under Face data below — it is processed locally and is not collected by Handcut.</p>
+<p><strong>Nothing.</strong> Our App Store privacy label reads “Data Not Collected”. That is
+a statement about what the app is capable of, not about what we choose to do: the app links
+no networking framework and contains no networking code outside Apple’s own StoreKit.</p>
 
 <h2>Your video, audio and captions</h2>
-<p>Your footage never leaves your device. Captions are produced by Apple’s on-device speech recognition with network recognition explicitly disabled and no fallback path.</p>
-
-<h2>Face data (on-device only)</h2>
-<p>Some optional editing features (for example auto-reframe and subject tracking) use Apple’s on-device Vision frameworks to detect a face or person in <em>your</em> video while you edit. That processing happens entirely on your device.</p>
-<ul>
-  <li><strong>What face data is processed:</strong> temporary geometric detections such as face bounding boxes / person silhouette masks derived from frames you already imported. The app does not create a biometric template, does not identify who you are, and does not build a face gallery.</li>
-  <li><strong>Collection:</strong> Handcut does <em>not</em> collect face data. Nothing about your face is uploaded to us — there is no Handcut server that could receive it.</li>
-  <li><strong>Use:</strong> solely to position a crop, follow a subject, or similar in-editor framing while you work on that project.</li>
-  <li><strong>Sharing:</strong> face data is not shared with any third party. Apple’s Vision APIs run locally; we do not send face data to Apple or anyone else for these features.</li>
-  <li><strong>Storage / retention:</strong> detections are ephemeral working state for the current edit session / project on your device. They are not stored in a cloud account we control. When you delete the project or uninstall the app, that local working state goes with it.</li>
-  <li><strong>Deletion / revoke:</strong> stop using tracking or auto-reframe, delete the project, or delete the app. Because we never receive the data, there is nothing for us to delete on a server.</li>
-</ul>
+<p>Your footage never leaves your device. Captions are produced by Apple’s on-device speech
+recognition with network recognition explicitly disabled and no fallback path.</p>
 
 <!--
   2026-08-25 — the sentence that used to end this paragraph read:
@@ -50,10 +44,23 @@
   It goes back VERBATIM once the on-device audit passes, and not before.
 -->
 
+<h2>Caption translation</h2>
+<p>On iOS 18 and later, Handcut Pro can translate your captions into another language. It
+uses Apple’s Translation framework, which translates on your iPhone with Apple’s own
+language models. Your captions are not sent to us or to anyone else. If a language is not
+on your iPhone yet, iOS asks you first and then downloads it from Apple; that download is
+made by iOS, not by Handcut, and you can decline it. Downloaded languages are listed, and
+can be removed, in the Settings app.</p>
+
 <h2>Where your work lives</h2>
 <p>Your media never leaves your device. Your project structure — the small file describing
 your cuts and settings — syncs through your own iCloud backup, which we have no access to,
 so a new iPhone can restore your work.</p>
+
+<p>To enforce the free tier’s allowance of three captioned exports in any seven days, Handcut
+stores only the timestamps of your three most recent captioned exports in the iOS Keychain on
+your iPhone (marked local to this device only, with iCloud Keychain sync turned off). Those
+timestamps never leave your device and are never readable by us.</p>
 
 <h2>Purchases</h2>
 <p>Purchases are handled entirely by Apple through StoreKit. Apple tells the app whether a
