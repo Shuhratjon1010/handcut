@@ -10,7 +10,7 @@
 
 ## Free vs Pro
 - Free: 3 captioned exports per rolling week, unlimited uncaptioned exports, unlimited projects and length, 4K export, keyframes, picture-in-picture, no watermark
-- Pro (monthly, annual or one-time lifetime): unlimited captioned exports, transcript editing (delete words to cut video), motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look, version history, premium styles
+- Pro — one-time $9.99 lifetime unlock (US price; local price shown in the app), no subscription required: unlimited captioned exports, transcript editing (delete words to cut video), motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look, version history, premium styles
 
 ## Good fit for
 People who talk to camera: coaches, course creators, realtors, podcasters, product sellers. A CapCut alternative for captions without a watermark.
