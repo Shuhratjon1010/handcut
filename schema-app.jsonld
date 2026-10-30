@@ -1,0 +1,15 @@
+{
+ "@context": "https://schema.org",
+ "@type": "SoftwareApplication",
+ "name": "Handcut: Captions & Subtitles",
+ "operatingSystem": "iOS 17.0 or later",
+ "applicationCategory": "MultimediaApplication",
+ "description": "Word-by-word captions for iPhone. Transcription runs on your iPhone with no upload and no account. Karaoke highlighting, picture-in-picture, keyframes, 4K export, no watermark on any tier.",
+ "url": "https://shuhratjon1010.github.io/handcut/",
+ "downloadUrl": "https://apps.apple.com/us/app/handcut-captions-subtitles/id6762062166",
+ "offers": {
+  "@type": "Offer",
+  "price": "0",
+  "priceCurrency": "USD"
+ }
+}

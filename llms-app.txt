@@ -1,0 +1,19 @@
+# Handcut: Captions & Subtitles
+
+> Word-by-word captions for iPhone. Transcription runs on your iPhone with no upload and no account. Karaoke highlighting, picture-in-picture, keyframes, 4K export, no watermark on any tier.
+
+- App Store: https://apps.apple.com/us/app/handcut-captions-subtitles/id6762062166
+- Landing: https://shuhratjon1010.github.io/handcut/app.html
+- Comparison: https://shuhratjon1010.github.io/handcut/compare/
+
+## Features
+- Per-word caption timing read from the audio, with karaoke highlighting
+- On-device transcription: the app makes no network requests
+- No account, no analytics, no ads
+- Picture-in-picture facecam bubble, free tier
+- Multi-clip timeline, speed 0.25×–4×, manual keyframes free on every plan
+- 4K export and no watermark on any tier
+- 1-Day Free Pass: unlimited captioned exports for 24 hours; Pro Lifetime is a one-time purchase
+
+## Price (US, verified 30 Oct 2026)
+Free to download. Pro Lifetime: $4.99 one-time purchase. Pro subscriptions are also offered; see the App Store listing for current subscription prices.

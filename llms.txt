@@ -26,3 +26,4 @@ People who talk to camera: coaches, course creators, realtors, podcasters, produ
 - [Caption styles](https://shuhratjon1010.github.io/handcut/styles.html)
 - [Support](https://shuhratjon1010.github.io/handcut/support.html)
 - [Privacy Policy](https://shuhratjon1010.github.io/handcut/privacy.html)
+- [App landing (llms)](https://shuhratjon1010.github.io/handcut/llms-app.txt)
