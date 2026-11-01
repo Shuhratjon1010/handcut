@@ -17,7 +17,7 @@
     {
      "@type": "Offer",
      "name": "Handcut Pro Lifetime (one-time purchase, no subscription)",
-     "price": "9.99",
+     "price": "4.99",
      "priceCurrency": "USD",
      "category": "one-time in-app purchase"
     }
@@ -40,7 +40,7 @@
      "name": "Is Handcut free?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, to download and use. Free includes a 1-Day Free Pass of unlimited captioned exports (24 hours from your first one), unlimited uncaptioned exports, unlimited projects and length, and 4K export. Pro — a one-time $9.99 lifetime unlock, no subscription required — adds unlimited captioned exports and the automation tools."
+      "text": "Yes, to download and use. Free includes a 1-Day Free Pass of unlimited captioned exports (24 hours from your first one), unlimited uncaptioned exports, unlimited projects and length, and 4K export. Pro — a one-time $4.99 lifetime unlock, no subscription required — adds unlimited captioned exports and the automation tools."
      }
     },
     {
@@ -53,10 +53,10 @@
     },
     {
      "@type": "Question",
-     "name": "Can I export subtitles as an SRT file?",
+     "name": "How are captions exported?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. Burn captions into the video, or turn off Burn in captions and export an SRT file for Final Cut Pro and other editors."
+      "text": "Captions are burned into the exported video."
      }
     },
     {
