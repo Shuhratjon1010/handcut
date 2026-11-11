@@ -9,8 +9,8 @@
 - Multi-clip timeline, 18 film looks, 14 transitions, speed 0.25x-4x, text/emoji/images, music and voiceover mixer, keyframes, crop/reframe to vertical, square or widescreen, up to 60fps, 4K export
 
 ## Free vs Pro
-- Free: a 1-Day Free Pass of unlimited captioned exports (24 hours from your first one), unlimited uncaptioned exports, unlimited projects and length, 4K export, keyframes, picture-in-picture, no watermark
-- Pro — one-time $4.99 lifetime unlock (US price; local price shown in the app), no subscription required: unlimited captioned exports, transcript editing (delete words to cut video), motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look, version history, premium styles
+- Free core: on-device captions, 4K export up to 60 fps, no watermark, core timeline, keyframes, picture-in-picture; unlimited uncaptioned exports, projects and length
+- Pro — a monthly plan at US$1/month (or the local equivalent shown in the app): Pro tools shown on the paywall, including transcript editing (delete words to cut video), motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look, version history, premium styles. Existing purchases stay valid and can be restored in the app
 
 ## Good fit for
 People who talk to camera: coaches, course creators, realtors, podcasters, product sellers. A CapCut alternative for captions without a watermark.

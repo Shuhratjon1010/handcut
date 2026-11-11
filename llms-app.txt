@@ -13,7 +13,7 @@
 - Picture-in-picture facecam bubble, free tier
 - Multi-clip timeline, speed 0.25×–4×, manual keyframes free on every plan
 - 4K export and no watermark on any tier
-- 1-Day Free Pass: unlimited captioned exports for 24 hours; Pro Lifetime is a one-time purchase
+- Free core: on-device captions, 4K up to 60 fps, no watermark, and the core timeline; Pro is a monthly plan
 
-## Price (US, verified 30 Oct 2026)
-Free to download. Pro Lifetime: $4.99 one-time purchase. Pro subscriptions are also offered; see the App Store listing for current subscription prices.
+## Price
+Free to download. HandCut Pro is a monthly plan at US$1/month, or the local equivalent shown in the app. Existing purchases stay valid and can be restored in the app.

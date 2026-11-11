@@ -7,9 +7,20 @@
  "description": "Word-by-word captions for iPhone. Transcription runs on your iPhone with no upload and no account. Karaoke highlighting, picture-in-picture, keyframes, 4K export, no watermark on any tier.",
  "url": "https://shuhratjon1010.github.io/handcut/",
  "downloadUrl": "https://apps.apple.com/us/app/handcut-captions-subtitles/id6762062166",
- "offers": {
-  "@type": "Offer",
-  "price": "0",
-  "priceCurrency": "USD"
- }
+ "offers": [
+  {
+   "@type": "Offer",
+   "name": "Handcut Free",
+   "price": "0",
+   "priceCurrency": "USD"
+  },
+  {
+   "@type": "Offer",
+   "name": "Handcut Pro Monthly",
+   "price": "1.00",
+   "priceCurrency": "USD",
+   "category": "subscription",
+   "description": "US$1/month, or the local equivalent shown in the app"
+  }
+ ]
 }
