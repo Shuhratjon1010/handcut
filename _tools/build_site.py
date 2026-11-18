@@ -8,6 +8,8 @@ import json, html, os, datetime
 BASE = "https://shuhratjon1010.github.io/handcut/"
 APP = "https://apps.apple.com/app/id6762062166"
 ICON = BASE + "img/handcut-icon-512.jpg"
+OG = BASE + "img/og-card.jpg"
+OG_ALT = "HandCut: auto captions for iPhone, on-device, no watermark, 4K export"
 SHOT = BASE + "img/screenshot-1.jpg"
 TODAY = "2026-11-18"
 OFFER_LINE = "Edit free. Export with Pro, a monthly subscription. Price shown in the app."
@@ -17,7 +19,7 @@ CSS = ("body{max-width:46rem;margin:0 auto;padding:0 1.2rem 2rem;font:17px/1.6 -
        ".banner img{width:44px;height:44px;border-radius:10px}.banner span{flex:1;font-size:.95rem}"
        "td,th{border:1px solid #8884;padding:.45rem;vertical-align:top;text-align:left}table{border-collapse:collapse;width:100%}"
        "footer{margin-top:3rem;font-size:.9rem;border-top:1px solid #8883;padding-top:1rem}nav a{margin-right:.6rem}"
-       "@media (prefers-color-scheme:dark){body{background:#111;color:#eee}a{color:#b794f6}}")
+       "footer a,nav a{display:inline-block;padding:.35rem .2rem;min-height:24px;line-height:1.4}main{display:block}@media (prefers-color-scheme:dark){body{background:#111;color:#eee}a{color:#b794f6}}")
 APP_LD = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -48,17 +50,17 @@ APP_LD = {
 }
 PAGES = [
   ("index.html","HandCut: auto captions video editor for iPhone, no watermark","Word-by-word auto captions made on your iPhone, a real timeline and 4K export with no watermark. Edit free; export with Pro."),
-  ("auto-captions-app.html","Auto captions app for iPhone: word-by-word, on-device | HandCut","An auto captions app for iPhone that transcribes on the device and times every caption to the word. No account, no watermark. Edit free; export with Pro."),
+  ("auto-captions-app.html","Auto captions app for iPhone, on-device","An auto captions app for iPhone that transcribes on the device and times every caption to the word. No account, no watermark. Edit free; export with Pro."),
   ("add-subtitles-to-video-iphone.html","How to add subtitles to a video on iPhone | HandCut","Add subtitles to any video on iPhone in a few taps: import, generate word-by-word subtitles on-device, fix words, style, export. No watermark."),
   ("video-editor-no-watermark.html","Video editor with no watermark for iPhone | HandCut","HandCut never adds a watermark. Edit free on iPhone with captions, timeline, keyframes and 4K; exporting needs a HandCut Pro subscription."),
-  ("how-to-add-captions-iphone.html","How to add captions to a video on iPhone (no watermark) | HandCut","Step by step: add word-by-word captions to a video on iPhone with HandCut and export with no watermark."),
+  ("how-to-add-captions-iphone.html","How to add captions on iPhone, no watermark","Step by step: add word-by-word captions to a video on iPhone with HandCut and export with no watermark."),
   ("vs-capcut.html","HandCut vs CapCut for captions on iPhone","An honest, sourced comparison of HandCut and CapCut for adding captions on iPhone."),
   ("compare/index.html","HandCut compared with other auto captions apps","Public App Store facts for HandCut and other auto captions apps, with links to each listing."),
   ("app.html","HandCut app: features and plan","What HandCut does on iPhone, and how the plan works: edit free, export with Pro, price shown in the app."),
-  ("styles.html","HandCut caption styles: Lantern, Silk and Spark","The caption styles in HandCut and the legibility rules behind them."),
-  ("support.html","HandCut support and FAQ","Contact HandCut support and read answers about plans, captions, offline use, accounts and projects."),
-  ("privacy.html","HandCut privacy policy","HandCut collects no data. Editing and captions run on your iPhone; nothing is sent to us."),
-  ("terms.html","HandCut terms of use","The terms for using the HandCut iOS app, purchases and subscriptions."),
+  ("styles.html","HandCut caption styles: Lantern, Silk and Spark","The caption styles in HandCut (Lantern, Silk and Spark) and the legibility rules behind them."),
+  ("support.html","HandCut support, FAQ and how to contact us","Contact HandCut support and read answers about plans, captions, offline use, accounts and projects."),
+  ("privacy.html","HandCut privacy policy: on-device, no account","HandCut collects no data. Editing and captions run on your iPhone; nothing is sent to us."),
+  ("terms.html","HandCut terms of use for the iPhone app","The terms for using the HandCut iOS app, including purchases, subscriptions and exports."),
 ]
 NAV = [("./","Home"),("auto-captions-app.html","Auto captions app"),("add-subtitles-to-video-iphone.html","Add subtitles on iPhone"),
        ("video-editor-no-watermark.html","No-watermark editor"),("how-to-add-captions-iphone.html","How to add captions"),
@@ -79,13 +81,17 @@ def head(path, title, desc, extra_ld=None):
         f'<meta name="apple-itunes-app" content="app-id=6762062166">'
         f'<meta property="og:type" content="website"><meta property="og:site_name" content="HandCut">'
         f'<meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}">'
-        f'<meta property="og:url" content="{url}"><meta property="og:image" content="{ICON}">'
-        f'<meta property="og:image:width" content="512"><meta property="og:image:height" content="512">'
-        f'<meta property="og:image:alt" content="HandCut app icon">'
-        f'<meta name="twitter:card" content="summary"><meta name="twitter:title" content="{e(title)}">'
-        f'<meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{ICON}">'
-        f'<link rel="icon" href="{pre}img/handcut-icon-512.jpg"><style>{CSS}</style>{ld}</head><body>'
-        f'<div class="banner"><img src="{pre}img/handcut-icon-512.jpg" alt="" width="44" height="44">'
+        f'<meta property="og:url" content="{url}"><meta property="og:image" content="{OG}">'
+        f'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+        f'<meta property="og:image:alt" content="{e(OG_ALT)}">'
+        f'<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}">'
+        f'<meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{OG}">'
+        f'<meta name="twitter:image:alt" content="{e(OG_ALT)}">'
+        f'<link rel="icon" href="https://shuhratjon1010.github.io/favicon.ico">'
+        f'<link rel="icon" type="image/jpeg" href="{pre}img/handcut-icon-512.jpg">'
+        f'<link rel="apple-touch-icon" href="{pre}img/apple-touch-icon.png">'
+        f'<style>{CSS}</style>{ld}</head><body>'
+        f'<div class="banner"><img src="{pre}img/handcut-icon-512.jpg" alt="HandCut app icon" width="44" height="44">'
         f'<span><strong>HandCut</strong> for iPhone. {OFFER_LINE}</span>'
         f'<a class="b" href="{APP}">App Store</a></div>')
 
@@ -163,6 +169,9 @@ BODY["add-subtitles-to-video-iphone.html"] = (None, f"""<h1>How to add subtitles
 <li>Record close to the microphone and away from loud music; recognition is better with clean speech.</li>
 <li>Keep two short lines on screen at most so viewers can read them at a glance.</li>
 <li>Place subtitles above the bottom edge so app buttons on social platforms do not cover them.</li></ul>
+<h2>Burned-in subtitles or an SRT file</h2>
+<p>Burned-in subtitles become part of the picture, so they show on every platform even when the viewer has captions turned off. An SRT file stays editable and is what YouTube and many course platforms want you to upload. You can export both from the same project. For languages, translation and safe zones, see the <a href="guides/subtitles-iphone-complete-guide/">complete subtitles guide</a>.</p>
+<p>The app interface is in English. Captions are built for English; other languages work only where your iPhone's on-device speech model is installed.</p>
 <p><strong>{OFFER_LINE}</strong></p>""", howto_ld("How to add subtitles to a video on iPhone with HandCut", SUB_STEPS))
 
 NW_FAQ = [
@@ -181,27 +190,39 @@ BODY["video-editor-no-watermark.html"] = (None, f"""<h1>A video editor for iPhon
 <li>Export up to 4K, up to 60 fps, with no watermark</li></ul>
 <h2>Honest about the price</h2>
 <p>You can download HandCut and edit for free. Exporting needs HandCut Pro, a monthly subscription. The App Store price for your country is shown in the app before you buy, and you can cancel anytime in your Apple Account settings.</p>
+<h2>Privacy and languages</h2>
+<p>The App Store privacy label is Data Not Collected. Captions are built for English; other languages work only where your iPhone's on-device speech model is installed. The app interface is in English. See also the <a href="compare/free-video-editor-no-watermark-iphone/">longer no-watermark comparison</a> and the <a href="guides/">guides</a>.</p>
 <h2>FAQ</h2>{faq_html(NW_FAQ)}""", faq_ld(NW_FAQ))
 
 BODY["how-to-add-captions-iphone.html"] = (None, f"""<h1>How to add captions to a video on iPhone</h1>
+<p>This is the short version: import a talking-head clip, generate word-by-word captions on your iPhone, fix any word, pick a style, and export with no watermark. For burned-in versus SRT files, languages and translation, see the <a href="guides/subtitles-iphone-complete-guide/">complete subtitles guide</a>.</p>
 {steps_html(STEPS)}
-<p>See also: <a href="add-subtitles-to-video-iphone.html">how to add subtitles to a video on iPhone</a> and <a href="auto-captions-app.html">how HandCut's auto captions work</a>.</p>""", howto_ld("How to add captions to a video on iPhone with HandCut", STEPS))
+<h2>Make the captions easier to read</h2>
+<ul>
+<li>Tap any word that came out wrong. Names and mixed languages often need a quick fix.</li>
+<li>Keep two short lines on screen, and sit the captions above the bottom of the frame so app buttons do not cover them.</li>
+<li>Preview the export on mute. If you cannot follow the video from the text alone, enlarge the style or shorten the lines.</li>
+</ul>
+<p>Captions are built for English. Other languages work only where your iPhone's on-device speech model is installed; the export screen lists the ones your iPhone has. The app itself is in English.</p>
+<p>See also: <a href="add-subtitles-to-video-iphone.html">how to add subtitles to a video on iPhone</a>, <a href="auto-captions-app.html">how HandCut's auto captions work</a>, and the <a href="guides/">guides hub</a>.</p>
+<p><strong>{OFFER_LINE}</strong></p>""", howto_ld("How to add captions to a video on iPhone with HandCut", STEPS))
 
 BODY["vs-capcut.html"] = (None, """<h1>HandCut vs CapCut for captions</h1>
 <p>For the full, regularly updated comparison see <a href="compare/handcut-vs-capcut/">HandCut vs CapCut: the detailed comparison</a>.</p>
-<p>CapCut is the bigger editor, with templates and trending effects on more platforms. Pick CapCut if you build from templates. Pick HandCut if you mainly need word-by-word captions on talking-to-camera video on your iPhone, with no watermark and no account.</p>
-<table><tr><th></th><th>HandCut</th><th>CapCut</th></tr>
-<tr><td>Watermark</td><td>None on any export</td><td>CapCut says exports are usually watermark-free, but many templates add a branded ending clip you delete by hand, and Pro templates need CapCut Pro to export without a watermark</td></tr>
-<tr><td>Captions</td><td>Word-by-word karaoke captions, transcribed on-device; burn in or export SRT</td><td>Auto captions built into a full editor</td></tr>
-<tr><td>Price</td><td>Edit free; exporting needs HandCut Pro, a monthly subscription priced in the app</td><td>See CapCut's current pricing</td></tr>
-<tr><td>Platforms</td><td>iPhone only (iOS 17+)</td><td>Mobile app, desktop and online editor</td></tr>
-<tr><td>Account</td><td>None needed</td><td>See CapCut's current terms</td></tr></table>
+<p>CapCut is the bigger editor, with templates and trending effects on more platforms. Pick CapCut if you build from templates. Pick HandCut if you mainly need word-by-word captions on talking-to-camera video on your iPhone, with no watermark and no account. This page is a short summary; the detailed page is updated when listings change.</p>
+<p>HandCut is iPhone only (iOS 17 or later), asks for no account, and transcribes on the device. The app interface is in English. Captions are built for English; other languages work only where your iPhone's on-device speech model is installed. Prices are shown in the app, not on this page, because they can vary by country and because plans are tested from time to time.</p>
+<table><tr><th>Feature</th><th scope="col">HandCut</th><th scope="col">CapCut</th></tr>
+<tr><th scope="row">Watermark</th><td>None on any export</td><td>CapCut says exports are usually watermark-free, but many templates add a branded ending clip you delete by hand, and Pro templates need CapCut Pro to export without a watermark</td></tr>
+<tr><th scope="row">Captions</th><td>Word-by-word karaoke captions, transcribed on-device; burn in or export SRT</td><td>Auto captions built into a full editor</td></tr>
+<tr><th scope="row">Price</th><td>Edit free; exporting needs HandCut Pro, a monthly subscription priced in the app</td><td>See CapCut's current pricing</td></tr>
+<tr><th scope="row">Platforms</th><td>iPhone only (iOS 17+)</td><td>Mobile app, desktop and online editor</td></tr>
+<tr><th scope="row">Account</th><td>None needed</td><td>See CapCut's current terms</td></tr></table>
 <p><small>CapCut details from CapCut's own help pages (capcut.com/help: remove-watermark-when-exporting-video, download-template-video-without-watermark, paid-template), checked 11 October 2026. CapCut features change; check their site for the latest. CapCut is a trademark of its owner; HandCut is not affiliated with it.</small></p>""", None)
 
 BODY["compare/index.html"] = (None, """<h1>HandCut compared with other “auto captions” apps</h1>
 <p>Facts below are copied from Apple’s public iTunes Search API (US store) on 30 October 2026: the top results for “auto captions”. Ratings and sizes change; follow each link for the current listing. We make no claims about other apps’ features.</p>
 <table><tr><th>App</th><th>Seller</th><th>Rating (count)</th><th>Price to download</th><th>Size</th></tr>
-<tr><td><a href='https://apps.apple.com/us/app/id6762062166'>Handcut: Auto Captions Video</a></td><td>Daler Soliev</td><td>3.7 (3)</td><td>Free (export needs a subscription)</td><td>11 MB</td></tr>
+<tr><td><a href='https://apps.apple.com/app/id6762062166'>Handcut: Auto Captions Video</a></td><td>Daler Soliev</td><td>3.7 (3)</td><td>Free (export needs a subscription)</td><td>11 MB</td></tr>
 <tr><td><a href='https://apps.apple.com/us/app/auto-caption-video-subtitles/id1659145800'>Auto Caption Video Subtitles</a></td><td>Take Agency, LLC</td><td>4.8 (920)</td><td>Free</td><td>323 MB</td></tr>
 <tr><td><a href='https://apps.apple.com/us/app/auto-captions-video-subtitles/id655895351'>Auto Captions: Video Subtitles</a></td><td>Fitness Labs SRL</td><td>4.6 (1,494)</td><td>Free</td><td>113 MB</td></tr>
 <tr><td><a href='https://apps.apple.com/us/app/captions-ai-edits-your-video/id1541407007'>Captions: AI Edits Your Video</a></td><td>Captions, LLC</td><td>4.7 (38,877)</td><td>Free</td><td>236 MB</td></tr>
@@ -213,7 +234,17 @@ BODY["compare/index.html"] = (None, """<h1>HandCut compared with other “auto c
 <li>On-device transcription; no account and no ads</li>
 <li>Picture-in-picture facecam bubble, multi-clip timeline, speed 0.25x to 4x, manual keyframes</li>
 <li>Export up to 4K with no watermark</li></ul>
-<h2>Price</h2><p>Free to download and to edit. Exporting needs HandCut Pro, a monthly subscription; the price is shown in the app. Existing purchases can be restored.</p>""", None)
+<h2>Price</h2><p>Free to download and to edit. Exporting needs HandCut Pro, a monthly subscription; the price is shown in the app. Existing purchases can be restored.</p>
+<h2>Longer comparisons</h2>
+<ul>
+<li><a href="handcut-vs-capcut/">HandCut vs CapCut</a></li>
+<li><a href="handcut-vs-inshot/">HandCut vs InShot</a></li>
+<li><a href="handcut-vs-vn/">HandCut vs VN</a></li>
+<li><a href="handcut-vs-captions-app/">HandCut vs Captions</a></li>
+<li><a href="capcut-alternatives-iphone/">CapCut alternatives for iPhone</a></li>
+<li><a href="free-video-editor-no-watermark-iphone/">Free video editors with no watermark</a></li>
+</ul>
+<p>Those pages quote each app's public App Store listing and, where we mention a feature of someone else's app, we link a source. Listings change; check the store for the current details.</p>""", None)
 
 BODY["app.html"] = (None, f"""<h1>HandCut: Auto Captions Video</h1>
 <p>Word-by-word captions for iPhone. Transcription runs on your iPhone with no upload and no account. Karaoke highlighting, picture-in-picture, keyframes, 4K export, no watermark.</p>
@@ -224,7 +255,11 @@ BODY["app.html"] = (None, f"""<h1>HandCut: Auto Captions Video</h1>
 <li>Picture-in-picture facecam bubble</li>
 <li>Multi-clip timeline, speed 0.25x to 4x, manual keyframes</li>
 <li>Export up to 4K, no watermark</li></ul>
-<h2>Plan</h2><p>Free to download and to edit. Exporting needs HandCut Pro, a monthly subscription; the price is shown in the app before you buy. Existing purchases can be restored in the app.</p>""", None)
+<h2>Plan</h2><p>Free to download and to edit. Exporting needs HandCut Pro, a monthly subscription; the price is shown in the app before you buy. Existing purchases can be restored in the app.</p>
+<h2>Languages and privacy</h2>
+<p>Captions are built for English. Other languages work only where your iPhone's on-device speech model supports them; the export screen lists the ones your iPhone has. The app itself is in English. Transcription runs on the device, the App Store privacy label is Data Not Collected, and there is no account.</p>
+<h2>Get started</h2>
+<p>Install HandCut from the App Store, pick a video from Photos, generate captions, fix any word, and export. There is no sign-up. You can burn the captions into the video or export an SRT file. Export goes up to 4K at up to 60 fps, with no watermark. For step-by-step help see <a href="how-to-add-captions-iphone.html">how to add captions</a>, <a href="auto-captions-app.html">auto captions</a>, the <a href="guides/">guides hub</a>, and <a href="support.html">support</a>.</p>""", None)
 
 def frag(name):
     """Body of an old fragment page, with HTML comments removed."""
@@ -286,10 +321,15 @@ terms = re.sub(r"<hr>\s*<p><em>Reviewed by counsel\? Not yet\.</em>.*?</p>\s*<p>
 BODY["terms.html"] = (None, terms, None)
 
 for path, title, desc in PAGES:
+    if path != "google60c6ea2badccaa48.html":
+        if not (30 <= len(title) <= 60):
+            raise ValueError(f"title length {len(title)} for {path}: {title}")
+        if not (70 <= len(desc) <= 160):
+            raise ValueError(f"desc length {len(desc)} for {path}: {desc}")
     _, body, ld = BODY[path]
     pre, h = head(path, title, desc, ld)
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-    open(path, "w").write(h + body.strip() + foot(pre))
+    open(path, "w").write(h + "<main>" + body.strip() + "</main>" + foot(pre))
 
 # sitemap
 urls = [BASE + ("" if p == "index.html" else p.replace("index.html", "")) for p, _, _ in PAGES]

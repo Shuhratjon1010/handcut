@@ -33,7 +33,6 @@ People who talk to camera: coaches, course creators, realtors, podcasters, produ
 - [Privacy Policy](https://shuhratjon1010.github.io/handcut/privacy.html)
 - [Terms of Use](https://shuhratjon1010.github.io/handcut/terms.html)
 - [Full text for LLMs](https://shuhratjon1010.github.io/handcut/llms-full.txt)
-
 ## Guides and comparisons (added 2026-11-18)
 - [All guides](https://shuhratjon1010.github.io/handcut/guides/): index of every how-to, use-case, feature and comparison page
 - [Subtitles on iPhone: the complete guide](https://shuhratjon1010.github.io/handcut/guides/subtitles-iphone-complete-guide/): Open the clip in HandCut, tap Generate Captions, fix any word you want, pick a style, and tap Export Video. The subtitles are transcribed on your iPhone, timed to each spoken word,
