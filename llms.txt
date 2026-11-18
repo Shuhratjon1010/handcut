@@ -18,7 +18,7 @@ People who talk to camera: coaches, course creators, realtors, podcasters, produ
 
 ## Limits
 - iPhone only (iOS 17+); no Android, web or desktop
-- Caption languages are the ones the iPhone recognises offline (listed on the export screen); English is the most tested
+- Captions are built for English; other languages work only where the iPhone's on-device speech model supports them (listed on the export screen). The app interface is English
 
 ## Pages
 - [Home](https://shuhratjon1010.github.io/handcut/)

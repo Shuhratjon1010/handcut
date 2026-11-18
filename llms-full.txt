@@ -51,7 +51,7 @@ No. HandCut asks for no account and shows no ads.
 Apple's on-device speech recognition transcribes your video on your iPhone, and HandCut times each caption to the spoken word. Audio is not uploaded.
 
 ### Which languages are supported?
-Captions work in the languages your iPhone can recognise offline; the export screen lists them. English is the most tested. The app interface is available in English, Spanish, Portuguese (Brazil), Hindi and Indonesian.
+Captions are built for English. Other languages work only where your iPhone's on-device speech model supports them; the export screen lists the ones your iPhone has. The app itself is in English.
 
 ### Is HandCut on Android?
 No. HandCut is iPhone only, iOS 17 or later.
@@ -80,7 +80,7 @@ Edit free. Export with Pro, a monthly subscription. Price shown in the app.
 Coaches, course creators, realtors, podcasters and anyone talking to camera who wants captions without a desktop editor.
 
 ## Languages
-Captions work in the languages your iPhone recognises offline, and the export screen lists them. English is the most tested.
+Captions are built for English. Other languages work only where your iPhone's on-device speech model supports them, and the export screen lists the ones your iPhone has.
 
 ## FAQ
 
@@ -313,7 +313,7 @@ Tap Restore purchases in the app. Earlier subscriptions and lifetime purchases s
 No. Never, on any export.
 
 ### Do captions work offline?
-Transcription runs on your iPhone using Apple's on-device speech recognition, with no network fallback. Availability depends on the languages iOS has installed; the export screen lists the languages your iPhone supports offline, and HandCut says so before you start if a language is missing.
+Transcription runs on your iPhone using Apple's on-device speech recognition, with no network fallback. Captions are built for English; other languages work only where your iPhone's on-device speech model supports them. The export screen lists the languages your iPhone has, and HandCut says so before you start if a language is missing.
 
 ### Why is there no music library?
 Licensing one would mean a server, accounts and a very different app. You can add your own audio.

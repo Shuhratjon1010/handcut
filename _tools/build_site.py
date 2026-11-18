@@ -33,7 +33,7 @@ APP_LD = {
     "screenshot": SHOT,
     "author": {"@type": "Person", "name": "Daler Soliev"},
     "publisher": {"@type": "Person", "name": "Daler Soliev"},
-    "inLanguage": ["en", "es", "pt-BR"],
+    "inLanguage": "en",
     "isAccessibleForFree": True,
     "description": ("Captions-first iPhone video editor. Word-by-word captions transcribed on your iPhone, "
                     "a real multi-clip timeline, 4K export and no watermark. Edit free; exporting needs a "
@@ -109,7 +109,7 @@ FAQ = [
  ("Is HandCut free?", "HandCut is free to download and free to edit with. Exporting a video needs a HandCut Pro monthly subscription; the price is shown in the app before you buy. Existing purchases can be restored in the app."),
  ("Do I need an account?", "No. HandCut asks for no account and shows no ads."),
  ("How are captions made?", "Apple's on-device speech recognition transcribes your video on your iPhone, and HandCut times each caption to the spoken word. Audio is not uploaded."),
- ("Which languages are supported?", "Captions work in the languages your iPhone can recognise offline; the export screen lists them. English is the most tested. The app interface is available in English, Spanish, Portuguese (Brazil), Hindi and Indonesian."),
+ ("Which languages are supported?", "Captions are built for English. Other languages work only where your iPhone's on-device speech model supports them; the export screen lists the ones your iPhone has. The app itself is in English."),
  ("Is HandCut on Android?", "No. HandCut is iPhone only, iOS 17 or later."),
 ]
 STEPS = ["Install HandCut from the App Store and open it. No account is needed.",
@@ -152,7 +152,7 @@ BODY["auto-captions-app.html"] = (None, f"""<h1>An auto captions app for iPhone 
 <li><strong>Export.</strong> Burn captions into the video with no watermark, or export SRT.</li></ul>
 <h2>Who it is for</h2>
 <p>Coaches, course creators, realtors, podcasters and anyone talking to camera who wants captions without a desktop editor.</p>
-<h2>Languages</h2><p>Captions work in the languages your iPhone recognises offline, and the export screen lists them. English is the most tested.</p>
+<h2>Languages</h2><p>Captions are built for English. Other languages work only where your iPhone's on-device speech model supports them, and the export screen lists the ones your iPhone has.</p>
 <h2>FAQ</h2>{faq_html(AUTO_FAQ)}""", faq_ld(AUTO_FAQ))
 
 SUB_STEPS = STEPS
@@ -251,7 +251,7 @@ SUPPORT_FAQ = [
  ("What is free, and what needs Pro?", "Downloading and editing are free. Exporting needs HandCut Pro, a monthly subscription; the App Store price for your country is shown in the app before you buy. Pro also adds tools such as transcript editing, motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look and version history. If you had HandCut before the 4.3 update, you keep the editor you already had."),
  ("I already paid. How do I get Pro back?", "Tap Restore purchases in the app. Earlier subscriptions and lifetime purchases stay valid. Manage subscriptions in Settings, your name, Subscriptions."),
  ("Does HandCut add a watermark?", "No. Never, on any export."),
- ("Do captions work offline?", "Transcription runs on your iPhone using Apple's on-device speech recognition, with no network fallback. Availability depends on the languages iOS has installed; the export screen lists the languages your iPhone supports offline, and HandCut says so before you start if a language is missing."),
+ ("Do captions work offline?", "Transcription runs on your iPhone using Apple's on-device speech recognition, with no network fallback. Captions are built for English; other languages work only where your iPhone's on-device speech model supports them. The export screen lists the languages your iPhone has, and HandCut says so before you start if a language is missing."),
  ("Why is there no music library?", "Licensing one would mean a server, accounts and a very different app. You can add your own audio."),
  ("Do I need an account?", "No. There is no sign-up, login or password."),
  ("Where do my projects live? Do they sync?", "Your media never leaves your device. The small project file describing your cuts syncs through your own iCloud backup, which we cannot access. The media itself is excluded from that backup and can be re-imported from Photos."),

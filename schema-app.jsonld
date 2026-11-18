@@ -19,11 +19,7 @@
   "@type": "Person",
   "name": "Daler Soliev"
  },
- "inLanguage": [
-  "en",
-  "es",
-  "pt-BR"
- ],
+ "inLanguage": "en",
  "isAccessibleForFree": true,
  "description": "Captions-first iPhone video editor. Word-by-word captions transcribed on your iPhone, a real multi-clip timeline, 4K export and no watermark. Edit free; exporting needs a HandCut Pro monthly subscription, priced in the app.",
  "featureList": [
