@@ -27,3 +27,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://shuhratjon1010.github.io/handcut/sitemap.xml
+Sitemap: https://shuhratjon1010.github.io/handcut/sitemap-guides.xml
