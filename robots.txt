@@ -1,5 +1,4 @@
-# Project-site robots.txt. Note: crawlers read robots.txt only at the domain root
-# (shuhratjon1010.github.io/robots.txt), so this file is advisory unless moved there.
+# Advisory copy. The authoritative file is https://shuhratjon1010.github.io/robots.txt (root).
 User-agent: *
 Allow: /
 

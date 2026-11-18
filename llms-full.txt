@@ -1,0 +1,511 @@
+# HandCut — full site text
+
+> Plain-text copy of every page on https://shuhratjon1010.github.io/handcut/ for language models. Edit free; exporting needs HandCut Pro, a monthly subscription priced in the app. App Store: https://apps.apple.com/app/id6762062166
+
+---
+URL: https://shuhratjon1010.github.io/handcut/
+# HandCut: auto captions that land on the word
+
+HandCut is a captions-first video editor for iPhone. It transcribes your video on the device and times every caption to the spoken word. No account, no ads, and never a watermark.
+
+Edit free. Export with Pro, a monthly subscription. Price shown in the app.
+
+## What you get
+
+- Word-by-word, karaoke-style auto captions; edit any word, restyle, move them anywhere on the frame
+
+- Burn captions into the video, or export an SRT file
+
+- Picture-in-picture: screen recording plus a facecam bubble plus captions
+
+- A real editor: multi-clip timeline, trim, split, reorder, 14 transitions, 0.25x to 4x speed, music and voiceover mixer, manual keyframes, reframe to vertical, square or widescreen
+
+- Export up to 4K, up to 60 fps, matching your footage
+
+## Free vs Pro
+
+Download and editing are free. Exporting needs HandCut Pro, a monthly subscription; the App Store price for your country is shown in the app before you buy. Pro also includes tools such as transcript editing (delete words to cut video), motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look and version history. Existing purchases can be restored.
+
+## Guides
+
+- Auto captions app for iPhone
+
+- How to add subtitles to a video on iPhone
+
+- A video editor with no watermark
+
+- How to add captions on iPhone, step by step
+
+## FAQ
+
+### Does HandCut add a watermark?
+No. HandCut never adds a watermark to any export.
+
+### Is HandCut free?
+HandCut is free to download and free to edit with. Exporting a video needs a HandCut Pro monthly subscription; the price is shown in the app before you buy. Existing purchases can be restored in the app.
+
+### Do I need an account?
+No. HandCut asks for no account and shows no ads.
+
+### How are captions made?
+Apple's on-device speech recognition transcribes your video on your iPhone, and HandCut times each caption to the spoken word. Audio is not uploaded.
+
+### Which languages are supported?
+Captions work in the languages your iPhone can recognise offline; the export screen lists them. English is the most tested. The app interface is available in English, Spanish, Portuguese (Brazil), Hindi and Indonesian.
+
+### Is HandCut on Android?
+No. HandCut is iPhone only, iOS 17 or later.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/auto-captions-app.html
+# An auto captions app for iPhone that times every word
+
+Most people watch short video with the sound off. HandCut turns speech into captions on your iPhone, word by word, so the text appears exactly as each word is spoken.
+
+Edit free. Export with Pro, a monthly subscription. Price shown in the app.
+
+## How HandCut's auto captions work
+
+- On-device transcription. Apple's speech recognition runs on your iPhone. Your audio is not uploaded.
+
+- Word timing. Each caption follows the timing of the spoken words, with karaoke-style highlighting.
+
+- Edit and style. Fix any word, change the look, and place captions anywhere on the frame.
+
+- Export. Burn captions into the video with no watermark, or export SRT.
+
+## Who it is for
+
+Coaches, course creators, realtors, podcasters and anyone talking to camera who wants captions without a desktop editor.
+
+## Languages
+Captions work in the languages your iPhone recognises offline, and the export screen lists them. English is the most tested.
+
+## FAQ
+
+### Are the auto captions accurate?
+Accuracy depends on audio quality, accent and language. HandCut uses Apple's on-device recognition; you can tap any word to correct it before export.
+
+### Do auto captions work offline?
+Transcription runs on your iPhone with no network fallback. If a language is not available offline on your iPhone, HandCut tells you before you start.
+
+### Can I export the captions as a file?
+Yes. You can burn captions into the video or export an SRT file.
+
+### Does HandCut add a watermark?
+No. HandCut never adds a watermark to any export.
+
+### Is HandCut free?
+HandCut is free to download and free to edit with. Exporting a video needs a HandCut Pro monthly subscription; the price is shown in the app before you buy. Existing purchases can be restored in the app.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/add-subtitles-to-video-iphone.html
+# How to add subtitles to a video on iPhone
+
+You can add subtitles to a video on iPhone without a computer. With HandCut the subtitles are generated on the device and timed to each word.
+
+- Install HandCut from the App Store and open it. No account is needed.
+- Tap the button to pick a video from Photos.
+- Open Captions and generate them. HandCut transcribes the speech on your iPhone and times each word.
+- Tap any word to fix it, choose a caption style, and drag the captions where you want them.
+- Tap Export. Captions are burned into the video, with no watermark. Exporting needs HandCut Pro; the price is shown in the app.
+
+## Tips for better subtitles
+
+- Record close to the microphone and away from loud music; recognition is better with clean speech.
+
+- Keep two short lines on screen at most so viewers can read them at a glance.
+
+- Place subtitles above the bottom edge so app buttons on social platforms do not cover them.
+
+Edit free. Export with Pro, a monthly subscription. Price shown in the app.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/video-editor-no-watermark.html
+# A video editor for iPhone with no watermark
+
+HandCut never stamps your video. There is no logo in the corner and no branded clip at the end, whatever you make.
+
+Edit free. Export with Pro, a monthly subscription. Price shown in the app.
+
+## What you can do
+
+- Word-by-word auto captions made on your iPhone
+
+- Multi-clip timeline: trim, split, reorder, 14 transitions, speed 0.25x to 4x
+
+- Text, emoji and your own images; manual keyframes; mirror, crop and reframe
+
+- Music and voiceover tracks with a mixer; picture-in-picture facecam
+
+- Export up to 4K, up to 60 fps, with no watermark
+
+## Honest about the price
+
+You can download HandCut and edit for free. Exporting needs HandCut Pro, a monthly subscription. The App Store price for your country is shown in the app before you buy, and you can cancel anytime in your Apple Account settings.
+
+## FAQ
+
+### Does HandCut ever add a watermark?
+No. There is no watermark on any export, and no branded end clip.
+
+### Is it a free video editor?
+Editing is free: import, captions, timeline, styles and keyframes. Exporting needs a HandCut Pro monthly subscription; the price is shown in the app before you buy.
+
+### What resolution can I export?
+Up to 4K, at up to 60 fps, following your footage.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/how-to-add-captions-iphone.html
+# How to add captions to a video on iPhone
+
+- Install HandCut from the App Store and open it. No account is needed.
+- Tap the button to pick a video from Photos.
+- Open Captions and generate them. HandCut transcribes the speech on your iPhone and times each word.
+- Tap any word to fix it, choose a caption style, and drag the captions where you want them.
+- Tap Export. Captions are burned into the video, with no watermark. Exporting needs HandCut Pro; the price is shown in the app.
+
+See also: how to add subtitles to a video on iPhone and how HandCut's auto captions work.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/vs-capcut.html
+# HandCut vs CapCut for captions
+
+CapCut is the bigger editor, with templates and trending effects on more platforms. Pick CapCut if you build from templates. Pick HandCut if you mainly need word-by-word captions on talking-to-camera video on your iPhone, with no watermark and no account.
+
+ | HandCut | CapCut | 
+
+Watermark | None on any export | CapCut says exports are usually watermark-free, but many templates add a branded ending clip you delete by hand, and Pro templates need CapCut Pro to export without a watermark | 
+
+Captions | Word-by-word karaoke captions, transcribed on-device; burn in or export SRT | Auto captions built into a full editor | 
+
+Price | Edit free; exporting needs HandCut Pro, a monthly subscription priced in the app | See CapCut's current pricing | 
+
+Platforms | iPhone only (iOS 17+) | Mobile app, desktop and online editor | 
+
+Account | None needed | See CapCut's current terms | 
+
+CapCut details from CapCut's own help pages (capcut.com/help: remove-watermark-when-exporting-video, download-template-video-without-watermark, paid-template), checked 11 October 2026. CapCut features change; check their site for the latest. CapCut is a trademark of its owner; HandCut is not affiliated with it.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/compare/
+# HandCut compared with other “auto captions” apps
+
+Facts below are copied from Apple’s public iTunes Search API (US store) on 30 October 2026: the top results for “auto captions”. Ratings and sizes change; follow each link for the current listing. We make no claims about other apps’ features.
+
+App | Seller | Rating (count) | Price to download | Size | 
+
+Handcut: Auto Captions Video | Daler Soliev | 3.7 (3) | Free (export needs a subscription) | 11 MB | 
+
+Auto Caption Video Subtitles | Take Agency, LLC | 4.8 (920) | Free | 323 MB | 
+
+Auto Captions: Video Subtitles | Fitness Labs SRL | 4.6 (1,494) | Free | 113 MB | 
+
+Captions: AI Edits Your Video | Captions, LLC | 4.7 (38,877) | Free | 236 MB | 
+
+AutoCap: Auto Video Captions | Zipo Apps Ltd. | 4.7 (794) | Free | 170 MB | 
+
+Auto Captions: AI Teleprompter | IDENTIQ INFOTECH | 0 (0) | Free | 25 MB | 
+
+“Price to download” is the App Store download price. Most of these apps sell in-app purchases or subscriptions; check each listing.
+
+## What HandCut does
+
+- Per-word caption timing read from the audio, with karaoke highlighting
+
+- On-device transcription; no account and no ads
+
+- Picture-in-picture facecam bubble, multi-clip timeline, speed 0.25x to 4x, manual keyframes
+
+- Export up to 4K with no watermark
+
+## Price
+Free to download and to edit. Exporting needs HandCut Pro, a monthly subscription; the price is shown in the app. Existing purchases can be restored.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/styles.html
+# HandCut caption styles
+
+Captions are the whole point. Every export leaves HandCut with no watermark — which means the only thing carrying the app's name out into a feed is how the
+captions look. So they are not three neutral defaults. They are designed to be recognisable
+after a one-second glimpse, and to stay legible over footage nobody has seen yet.
+
+## The word your app chose
+
+Every caption tool can highlight the word being spoken. HandCut marks a second word: the
+one that actually carries the sentence — a number, a negation, an absolute. It is picked
+from what you said, not from a template, and it does not move with the audio. One word per
+caption at most, never three captions in a row, never more than about a third of a video.
+
+That restraint is the feature. Emphasis everywhere is emphasis nowhere, and the reason
+nobody does this by hand is that it means styling one word per caption across two hundred
+captions. It runs entirely on your device and produces the same result every time.
+
+## Lantern
+
+Warm educator. Each line sits in its own dark capsule with a violet hairline, so
+a stacked caption reads as a stack of lit tags rather than as a subtitle box. The most
+legible style over cluttered footage, and the default for auto-captions.
+
+The word being spoken gets a travelling violet block. The word HandCut chose gets the
+whole capsule: it flips to violet, and the type stays white. Legibility never depends on the
+colour — the readable pair is white on violet at 5.6:1, and white on ink at 19.9:1.
+
+## Silk
+
+Minimal luxury. Near-black type, widely tracked, on a soft off-white scrim. Built
+for property tours, product films and anything where a loud caption would cheapen the shot.
+
+Because the scrim carries the legibility, the worst case is a property of the style rather
+than of your footage: 17.6:1 over a white frame, 14.7:1 over a black one. Words you have not
+reached yet sit back rather than disappearing, and the word HandCut chose is underlined in a
+single thin violet rule — the quietest way to say this one.
+
+## Spark
+
+Block capitals, hard shadow. The loud one. Available alongside Lantern and Silk.
+
+Spark is being redrawn. It predates the current caption work and has not been through the
+same verification the other two have, so we are not describing it as a signature style until
+it has. It works and it ships; it is just not finished.
+
+## What holds across all of them
+
+- No watermark, ever. There is no version of HandCut that brands your video for you.
+
+- Readable at arm's length. One legibility floor for the family, not a
+ lower one for the styles that are meant to look subtle. A style you have to squint at
+ is not a cheaper style, it is a broken one.
+
+- Measured against black and white footage, not against a convenient
+ mid-grey. Those two brackets everything in between.
+
+- Nothing leaves your device. Transcription, word timings and the
+ emphasis choice are all computed locally.
+
+Caption styles are part of editing, which is free. Exporting needs HandCut Pro; the price is shown in the app.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/support.html
+# HandCut support
+
+Questions, bugs, or anything that looks wrong: shuhrat.soliev@gmail.com. We reply within 2 business days.
+
+Edit free. Export with Pro, a monthly subscription. Price shown in the app.
+
+## Frequently asked
+
+### What is free, and what needs Pro?
+Downloading and editing are free. Exporting needs HandCut Pro, a monthly subscription; the App Store price for your country is shown in the app before you buy. Pro also adds tools such as transcript editing, motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look and version history. If you had HandCut before the 4.3 update, you keep the editor you already had.
+
+### I already paid. How do I get Pro back?
+Tap Restore purchases in the app. Earlier subscriptions and lifetime purchases stay valid. Manage subscriptions in Settings, your name, Subscriptions.
+
+### Does HandCut add a watermark?
+No. Never, on any export.
+
+### Do captions work offline?
+Transcription runs on your iPhone using Apple's on-device speech recognition, with no network fallback. Availability depends on the languages iOS has installed; the export screen lists the languages your iPhone supports offline, and HandCut says so before you start if a language is missing.
+
+### Why is there no music library?
+Licensing one would mean a server, accounts and a very different app. You can add your own audio.
+
+### Do I need an account?
+No. There is no sign-up, login or password.
+
+### Where do my projects live? Do they sync?
+Your media never leaves your device. The small project file describing your cuts syncs through your own iCloud backup, which we cannot access. The media itself is excluded from that backup and can be re-imported from Photos.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/privacy.html
+# HandCut privacy policy
+
+Effective 1 August 2026 (updated 18 November 2026).
+
+## The short version
+
+HandCut does not collect personal data from you. There is no account, no analytics that leave your iPhone, no advertising identifier, and no server belonging to us for your video to be sent to. Editing, captioning, optional on-device subject framing, and exporting all happen on your iPhone.
+
+## What we collect
+
+Nothing. Nothing leaves your device to reach us. Our App Store privacy label reads “Data Not Collected”. That is a statement about what the app transmits: the app links no networking framework and contains no networking code outside Apple’s own StoreKit. On-device face/person detection used for optional framing features is described under Face data below — it is processed locally and is not collected by HandCut.
+
+## Your video, audio and captions
+
+Your footage never leaves your device. Captions are produced by Apple’s on-device speech recognition with network recognition explicitly disabled and no fallback path.
+
+## Face data (on-device only)
+
+Some optional editing features (for example auto-reframe and subject tracking) use Apple’s on-device Vision frameworks to detect a face or person in your video while you edit. That processing happens entirely on your device.
+
+- What face data is processed: temporary geometric detections such as face bounding boxes / person silhouette masks derived from frames you already imported. The app does not create a biometric template, does not identify who you are, and does not build a face gallery.
+
+- Collection: HandCut does not collect face data. Nothing about your face is uploaded to us — there is no HandCut server that could receive it.
+
+- Use: solely to position a crop, follow a subject, or similar in-editor framing while you work on that project.
+
+- Sharing: face data is not shared with any third party. Apple’s Vision APIs run locally; we do not send face data to Apple or anyone else for these features.
+
+- Storage / retention: detections are ephemeral working state for the current edit session / project on your device. They are not stored in a cloud account we control. When you delete the project or uninstall the app, that local working state goes with it.
+
+- Deletion / revoke: stop using tracking or auto-reframe, delete the project, or delete the app. Because we never receive the data, there is nothing for us to delete on a server.
+
+## Caption translation
+
+On iOS 18 and later, HandCut Pro can translate your captions into another language. It
+uses Apple’s Translation framework, which translates on your iPhone with Apple’s own
+language models. Your captions are not sent to us or to anyone else. If a language is not
+on your iPhone yet, iOS asks you first and then downloads it from Apple; that download is
+made by iOS, not by HandCut, and you can decline it. Downloaded languages are listed, and
+can be removed, in the Settings app.
+
+## Where your work lives
+
+Your media never leaves your device. Your project structure — the small file describing
+your cuts and settings — syncs through your own iCloud backup, which we have no access to,
+so a new iPhone can restore your work.
+
+If the app stores local timestamps related to export entitlements, they stay in the
+iOS Keychain on your iPhone (marked local to this device only, with iCloud Keychain
+sync turned off). Those timestamps never leave your device and are never readable by us.
+
+## On-device counters
+
+To improve the app, HandCut keeps a few simple counters on your iPhone, for example how many times the export subscription sheet was shown or dismissed. They are numbers stored in the app's own settings on this device only. They contain no identifier and are never sent to us or anyone else.
+
+## Purchases
+
+Purchases are handled entirely by Apple through StoreKit. Apple tells the app whether a
+purchase is active; nothing identifying you reaches us, because there is no “us” to reach —
+the app links no networking code with which to reach anyone.
+
+## When you share a video
+
+Using the share sheet, or sending a video to another app, hands the file to software we
+do not control. Once it leaves HandCut it is governed by that app’s privacy policy, not
+this one.
+
+## Children
+
+HandCut collects no data from anyone, of any age.
+
+## Changes
+
+If this policy ever changes, the change will be dated here. A change that introduced data
+collection would require a new App Store privacy label, which is visible on the listing
+before you install.
+
+## Contact
+
+shuhrat.soliev@gmail.com — Daler Soliev, Tajikistan.
+Download HandCut on the App Store
+
+---
+URL: https://shuhratjon1010.github.io/handcut/terms.html
+# HandCut terms of use
+
+Effective 1 August 2026 (updated 18 November 2026). These terms govern your use of the HandCut
+iOS app, published by Daler Soliev (Tajikistan).
+
+## The short version
+
+HandCut is a video editor that runs on your device. Your videos are yours. We do not
+collect them, we cannot see them, and there is no account to create. Editing is free;
+exporting needs a HandCut Pro subscription. There is never a watermark on your exports.
+
+## What you may do
+
+Use HandCut to edit and export videos for personal or commercial purposes, on any device
+signed in to your Apple Account, under the terms of Apple's
+Licensed Application End
+User License Agreement.
+
+Free editing and HandCut Pro. Downloading HandCut and editing are free.
+Exporting a video needs HandCut Pro, a monthly subscription; the App Store price for your
+country is shown in the app before you buy. Installs from before the 4.3 update keep the
+editor they already had. Some additional tools shown in the app are part of HandCut Pro.
+
+You own your output. We claim no rights in anything you make. We do not
+need a licence to your content because your content never reaches us.
+
+## What you may not do
+
+- Reverse-engineer, decompile or redistribute the app, except where that restriction is
+ void under the law that applies to you.
+
+- Use HandCut to create material that is unlawful where you are, or that infringes
+ someone else's rights.
+
+- Use it to process footage you have no right to process.
+
+## Purchases
+
+The current HandCut Pro offer for new customers is a monthly subscription. The price for
+your country is shown in the app before you buy. Existing
+purchases — including earlier subscriptions and lifetime unlocks — stay valid and
+can be restored in the app. This page does not quote other product prices; the
+paywall always shows the current, localized App Store price.
+
+- Subscriptions renew automatically until cancelled. Cancel at least 24
+ hours before the period ends, in Settings → your name → Subscriptions. Cancelling
+ stops the next renewal; it does not refund the current period.
+
+- Introductory offers or free trials, if shown in the app, apply only
+ as described on the paywall and only to eligible Apple accounts. If you do not
+ cancel before a trial ends, it converts to a paid period.
+
+- Earlier lifetime purchases are one-time, non-consumable purchases.
+ They do not renew and cannot be cancelled, because there is nothing to cancel.
+ They remain valid and can be restored.
+
+- Apple takes the payment, not us. We never see your card. Refunds are
+ handled by Apple under their terms — request one at
+ reportaproblem.apple.com. We cannot
+ issue a refund on Apple's behalf, though we would like to be able to.
+
+Your purchase is recognised by reading Apple's own entitlement record on your device. We
+run no server that tracks what you have bought.
+
+## Captions and speech
+
+Automatic captions are produced by Apple's on-device speech recognition. Your audio is
+not uploaded, and there is no network fallback — if the language is not available offline on
+your device, the feature reports that rather than sending your audio somewhere.
+
+Recognition accuracy varies with audio quality, accent and language. Captions are a
+starting point you are expected to edit, not a transcript we warrant to be correct.
+
+## Availability, and changes to the app
+
+We may add, change or remove features. If a change removes something you paid for, that
+is a refund conversation, not a terms conversation — write to us.
+
+HandCut is provided as-is. To the extent the law where you live permits, we exclude
+implied warranties, and our total liability to you is limited to what you paid us in the
+twelve months before the claim. Nothing here limits liability that cannot lawfully be
+limited — including for death, personal injury, or fraud.
+
+## Ending these terms
+
+You may stop using HandCut at any time by deleting it; your exported videos stay in your
+photo library. We may end your licence if you materially breach these terms, which in
+practice means using the app to break the law.
+
+## Governing law
+
+These terms are governed by the law of Tajikistan. If you are a consumer, you keep
+the protections of the law where you live, and nothing here removes them.
+
+## Contact
+
+shuhrat.soliev@gmail.com — Daler Soliev, Tajikistan.
+Download HandCut on the App Store

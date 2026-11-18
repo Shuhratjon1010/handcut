@@ -1,26 +1,48 @@
 {
  "@context": "https://schema.org",
  "@type": "SoftwareApplication",
- "name": "Handcut: Captions & Subtitles",
- "operatingSystem": "iOS 17.0 or later",
+ "name": "HandCut",
+ "alternateName": "Handcut: Auto Captions Video",
  "applicationCategory": "MultimediaApplication",
- "description": "Word-by-word captions for iPhone. Transcription runs on your iPhone with no upload and no account. Karaoke highlighting, picture-in-picture, keyframes, 4K export, no watermark on any tier.",
+ "applicationSubCategory": "Video editor",
+ "operatingSystem": "iOS 17.0 or later",
+ "installUrl": "https://apps.apple.com/app/id6762062166",
+ "downloadUrl": "https://apps.apple.com/app/id6762062166",
  "url": "https://shuhratjon1010.github.io/handcut/",
- "downloadUrl": "https://apps.apple.com/us/app/handcut-captions-subtitles/id6762062166",
- "offers": [
-  {
-   "@type": "Offer",
-   "name": "Handcut Free",
-   "price": "0",
-   "priceCurrency": "USD"
-  },
-  {
-   "@type": "Offer",
-   "name": "Handcut Pro Monthly",
-   "price": "1.00",
-   "priceCurrency": "USD",
-   "category": "subscription",
-   "description": "US$1/month, or the local equivalent shown in the app"
-  }
- ]
+ "image": "https://shuhratjon1010.github.io/handcut/img/handcut-icon-512.jpg",
+ "screenshot": "https://shuhratjon1010.github.io/handcut/img/screenshot-1.jpg",
+ "author": {
+  "@type": "Person",
+  "name": "Daler Soliev"
+ },
+ "publisher": {
+  "@type": "Person",
+  "name": "Daler Soliev"
+ },
+ "inLanguage": [
+  "en",
+  "es",
+  "pt-BR"
+ ],
+ "isAccessibleForFree": true,
+ "description": "Captions-first iPhone video editor. Word-by-word captions transcribed on your iPhone, a real multi-clip timeline, 4K export and no watermark. Edit free; exporting needs a HandCut Pro monthly subscription, priced in the app.",
+ "featureList": [
+  "Word-by-word auto captions transcribed on-device",
+  "Karaoke-style word highlighting",
+  "Edit any caption word and restyle captions",
+  "Burn captions into the video or export SRT",
+  "Multi-clip timeline with trim, split and reorder",
+  "Picture-in-picture facecam bubble",
+  "Speed 0.25x to 4x",
+  "Manual keyframes",
+  "Export up to 4K, up to 60 fps",
+  "No watermark",
+  "No account, no ads"
+ ],
+ "offers": {
+  "@type": "Offer",
+  "price": "0",
+  "priceCurrency": "USD",
+  "description": "Free to download and edit. Exporting needs a HandCut Pro monthly subscription; the price is shown in the app."
+ }
 }

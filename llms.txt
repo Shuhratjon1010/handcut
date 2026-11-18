@@ -1,29 +1,35 @@
-# Handcut
+# HandCut
 
-> Handcut is a captions-first iPhone video editor. It transcribes speech on-device into word-by-word captions and adds no watermark on any tier. No account, no ads. App Store: https://apps.apple.com/app/id6762062166
+> HandCut is a captions-first iPhone video editor. It transcribes speech on the device into word-by-word captions and never adds a watermark. No account, no ads. Edit free; exporting needs HandCut Pro, a monthly subscription priced in the app. App Store: https://apps.apple.com/app/id6762062166
 
 ## What it does
 - Word-by-word (karaoke) captions timed from the audio; edit any word, restyle, reposition
-- Captions are burned into the exported video
+- Burn captions into the video, or export an SRT file
 - Picture-in-picture: screen recording + facecam bubble + captions
-- Multi-clip timeline, 18 film looks, 14 transitions, speed 0.25x-4x, text/emoji/images, music and voiceover mixer, keyframes, crop/reframe to vertical, square or widescreen, up to 60fps, 4K export
+- Multi-clip timeline, 14 transitions, speed 0.25x-4x, text/emoji/images, music and voiceover mixer, manual keyframes, reframe to vertical, square or widescreen, export up to 4K at up to 60 fps
 
-## Free vs Pro
-- New users get one simple monthly plan to use HandCut — from US$1/month in the US, or the local price shown in the app. Download stays free. People who already had the app keep the access they were promised. Existing purchases can be restored.
-- Exports are 4K up to 60 fps with no watermark. Pro tools shown on the paywall include transcript editing (delete words to cut video), motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look, version history and premium styles.
+## Free and Pro
+- Downloading and editing are free. Exporting needs HandCut Pro, a monthly subscription; the App Store price for each country is shown in the app before purchase.
+- Pro also includes transcript editing (delete words to cut video), motion tracking, Smart Cutout, Auto-Reframe, denoise, Auto Match Look and version history.
+- No watermark on any export. Existing purchases can be restored.
 
 ## Good fit for
-People who talk to camera: coaches, course creators, realtors, podcasters, product sellers. A CapCut alternative for captions without a watermark.
+People who talk to camera: coaches, course creators, realtors, podcasters, product sellers.
 
 ## Limits
 - iPhone only (iOS 17+); no Android, web or desktop
-- Caption languages depend on Apple on-device speech recognition; English is the primary supported language
+- Caption languages are the ones the iPhone recognises offline (listed on the export screen); English is the most tested
 
 ## Pages
 - [Home](https://shuhratjon1010.github.io/handcut/)
-- [Handcut vs CapCut for captions](https://shuhratjon1010.github.io/handcut/vs-capcut.html)
-- [How to add captions to a video on iPhone](https://shuhratjon1010.github.io/handcut/how-to-add-captions-iphone.html)
+- [Auto captions app for iPhone](https://shuhratjon1010.github.io/handcut/auto-captions-app.html)
+- [How to add subtitles to a video on iPhone](https://shuhratjon1010.github.io/handcut/add-subtitles-to-video-iphone.html)
+- [Video editor with no watermark](https://shuhratjon1010.github.io/handcut/video-editor-no-watermark.html)
+- [How to add captions on iPhone](https://shuhratjon1010.github.io/handcut/how-to-add-captions-iphone.html)
+- [HandCut vs CapCut for captions](https://shuhratjon1010.github.io/handcut/vs-capcut.html)
+- [Compare auto captions apps](https://shuhratjon1010.github.io/handcut/compare/)
 - [Caption styles](https://shuhratjon1010.github.io/handcut/styles.html)
 - [Support](https://shuhratjon1010.github.io/handcut/support.html)
 - [Privacy Policy](https://shuhratjon1010.github.io/handcut/privacy.html)
-- [App landing (llms)](https://shuhratjon1010.github.io/handcut/llms-app.txt)
+- [Terms of Use](https://shuhratjon1010.github.io/handcut/terms.html)
+- [Full text for LLMs](https://shuhratjon1010.github.io/handcut/llms-full.txt)
