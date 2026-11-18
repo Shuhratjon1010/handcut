@@ -62,7 +62,7 @@ PAGES = [
 ]
 NAV = [("./","Home"),("auto-captions-app.html","Auto captions app"),("add-subtitles-to-video-iphone.html","Add subtitles on iPhone"),
        ("video-editor-no-watermark.html","No-watermark editor"),("how-to-add-captions-iphone.html","How to add captions"),
-       ("styles.html","Caption styles"),("vs-capcut.html","HandCut vs CapCut"),("compare/","Compare apps"),
+       ("styles.html","Caption styles"),("vs-capcut.html","HandCut vs CapCut"),("compare/","Compare apps"),("guides/","All guides"),
        ("support.html","Support"),("privacy.html","Privacy Policy"),("terms.html","Terms of Use")]
 
 def head(path, title, desc, extra_ld=None):
@@ -188,6 +188,7 @@ BODY["how-to-add-captions-iphone.html"] = (None, f"""<h1>How to add captions to 
 <p>See also: <a href="add-subtitles-to-video-iphone.html">how to add subtitles to a video on iPhone</a> and <a href="auto-captions-app.html">how HandCut's auto captions work</a>.</p>""", howto_ld("How to add captions to a video on iPhone with HandCut", STEPS))
 
 BODY["vs-capcut.html"] = (None, """<h1>HandCut vs CapCut for captions</h1>
+<p>For the full, regularly updated comparison see <a href="compare/handcut-vs-capcut/">HandCut vs CapCut: the detailed comparison</a>.</p>
 <p>CapCut is the bigger editor, with templates and trending effects on more platforms. Pick CapCut if you build from templates. Pick HandCut if you mainly need word-by-word captions on talking-to-camera video on your iPhone, with no watermark and no account.</p>
 <table><tr><th></th><th>HandCut</th><th>CapCut</th></tr>
 <tr><td>Watermark</td><td>None on any export</td><td>CapCut says exports are usually watermark-free, but many templates add a branded ending clip you delete by hand, and Pro templates need CapCut Pro to export without a watermark</td></tr>
@@ -228,7 +229,9 @@ BODY["app.html"] = (None, f"""<h1>HandCut: Auto Captions Video</h1>
 def frag(name):
     """Body of an old fragment page, with HTML comments removed."""
     import re
-    s = open(name).read()
+    # The fragments were replaced by generated pages in bd52c46; read the originals from ae24e59.
+    import subprocess
+    s = subprocess.run(["git", "show", "ae24e59:" + name], capture_output=True, text=True, check=True).stdout
     s = re.sub(r"<!--.*?-->", "", s, flags=re.S)
     return s
 
@@ -290,6 +293,10 @@ for path, title, desc in PAGES:
 
 # sitemap
 urls = [BASE + ("" if p == "index.html" else p.replace("index.html", "")) for p, _, _ in PAGES]
+# Keep every URL other workers added (guides, /for/, /features/, /compare/<name>/, /pt-br/, /es/).
+if os.path.exists("sitemap.xml"):
+    for u in re.findall(r"<loc>([^<]+)</loc>", open("sitemap.xml").read()):
+        if u not in urls: urls.append(u)
 open("sitemap.xml", "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     "".join(f"<url><loc>{u}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
 json.dump({"@context":"https://schema.org","@graph":[{k:v for k,v in APP_LD.items() if k!="@context"}]}, open("schema.jsonld","w"), ensure_ascii=False, indent=1)
